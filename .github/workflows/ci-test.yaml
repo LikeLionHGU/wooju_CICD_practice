@@ -9,8 +9,6 @@ on:
       - "**.java"       # 자바 파일이 수정되었을 때만 작동
       - "build.gradle"  # 혹은 패키지 설정 파일이 수정되었을 때 작동
       - "pom.xml"       # (Maven을 사용하시는 경우를 위해 추가)
-    paths-ignore:
-      - "doc/**"        # 문서 파일만 수정했을 때는 CI 로봇이 꿀잠을 잡니다.
 
 jobs:
   build:
